@@ -52,7 +52,7 @@ console.log(cost); // 9 собівартість
 const happyEnd = cost - profit;
 console.log(happyEnd); // 9 чистий прибуток
 
-const results = 'Car: ${car}
+const results = `Car: ${car}
 Bus: ${bus}
 Train: ${train}
 Максимальне число: ${maxPrice}
@@ -66,5 +66,5 @@ Train: ${train}
 Округлена знижка: ${discountRounding}
 Прибуток: ${profit}
 Собівартість: ${cost}
-Чистий прибуток: ${happyEnd}';
+Чистий прибуток: ${happyEnd}`;
 console.log(results);
