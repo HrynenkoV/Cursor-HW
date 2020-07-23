@@ -9,7 +9,7 @@ console.log(firstNumber);
 
 secondNumber = Number(prompt ("Будь ласка напишіть друге ціле число, але більше за перше"));
 
-while (isNaN(secondNumber)) {
+/* while (isNaN(secondNumber)) {
   secondNumber = Number(prompt ("Потрібно написати ЦІЛЕ число"))
 }
 
@@ -23,11 +23,11 @@ while (secondNumber==="") {
 
 while (firstNumber>=secondNumber) {
   secondNumber = Number(prompt ("Потрібно написати ціле число більше за перше"))
-}
-
-/* while (isNaN(secondNumber) || !Number.isInteger(secondNumber) || secondNumber==="" || firstNumber>=secondNumber) {
-  secondNumber = Number(prompt ("Потрібно написати ЦІЛЕ число"))
 } */
+
+while (isNaN(secondNumber) || !Number.isInteger(secondNumber) || secondNumber==="" || firstNumber>=secondNumber) {
+  secondNumber = Number(prompt ("Потрібно написати ЦІЛЕ число, яке більше за перше!"))
+}
 
 console.log(secondNumber);
 
