@@ -2,7 +2,7 @@ let firstNumber;
 let secondNumber;
 
 firstNumber = Number(prompt ("Будь ласка напишіть перше ціле число"));
-while (isNaN(firstNumber) || !Number.isInteger(firstNumber) || firstNumber==="" || !firstNumber) {
+while (isNaN(firstNumber) || !Number.isInteger(firstNumber) || firstNumber===" " || !firstNumber) {
   firstNumber = Number(prompt ("Потрібно написати ЦІЛЕ число"))
 }
 console.log(firstNumber);
