@@ -10,7 +10,7 @@ console.log(getMaxDigit(02091939));
 
 function degreeOfNumber(number, degree) {
   let result = number;
-  for (let i = 1; i <= degree; i++) {
+  for (let i = 1; i < degree; i++) {
     result *= number;
   }
   return result;
