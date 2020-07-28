@@ -22,7 +22,7 @@ console.log(degreeOfNumber(3, 4));
 function randomPassword(password = 8) {
   let randpass = '';
   for (let i = 0; i < password; i++) {
-    randpass += Math.round(Math.random() * 8);
+    randpass += Math.round(Math.random() * 9);
   }
   return randpass;
 }
@@ -30,10 +30,10 @@ console.log(randomPassword());
 
 // №4. Функція - випадкове число.
 
-function randomNumber(a, b) {
-  return Math.floor(Math.random() * (a - b + 1) + b);
+function randomNumber(min, max) {
+  return Math.floor(Math.random() * (min - max + 1) + max);
 }
-console.log(randomNumber(1, 1000));
+console.log(randomNumber(1, 654321));
 
 // №5. Функція, перша буква завжди з великої літери.
 
