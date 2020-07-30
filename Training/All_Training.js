@@ -187,3 +187,56 @@ console.log("Hello moto");
 } 
 console.log(getFactorial(9)); */
 
+
+/* "Vova".charAt(1);
+console.log(Vova.charAt(1));
+
+"Vova".charAt(2);
+console.log(Vova.charAt(2));
+
+"Vova".charAt(3);
+console.log(Vova.charAt(3));
+
+"Vova".charAt(4);
+console.log(Vova.charAt(4));
+
+function getMaxDigit(number) {
+  newNumber = number.toString().split(``);
+  return Math.max(...newNumber);
+}
+console.log(getMaxDigit(02091939)); */
+
+/* const HrynenkoV = 'Vova';
+'Vova'.charAt(0);
+console.log('Vova'.charAt(0));
+
+
+"Vova".charAt(1);
+"Vova".charAt(01);
+console.log("Vova".charAt(1));
+
+"Vova".charAt(2);
+"Vova".charAt(2);
+console.log("Vova".charAt(2));
+
+"Vova".charAt(3);
+"Vova".charAt(3);
+console.log("Vova".charAt(3)); */
+
+/* const Vova = 26;
+const Vika = 25;
+const Gena = 31;
+console.log(Vova + Vika + 31);
+
+"Vika Golovanyova" + "Volodymyr Hrynenko";
+console.log("Vika Golovanyova" + " Volodymyr Hrynenko"); */
+
+/* const HrynenkoV = 286;
+HrynenkoV.toString();
+HrynenkoV.toString().length;
+HrynenkoV.toString().length.toString();
+
+console.log(HrynenkoV.toString());
+console.log(HrynenkoV.toString().length);
+console.log(HrynenkoV.toString().length.toString()); */
+
