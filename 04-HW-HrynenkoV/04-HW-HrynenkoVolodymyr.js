@@ -52,7 +52,7 @@ const all_Random_Marks = getrandomMarks(students, all_Pair, themes_For_Pairs);
 function getrandomMarks(students, all_Pair, themes_For_Pairs) {
     const studentsRandomMark = [];
   for (a = 0; a < all_Pair.length; a++) {
-    studentsRandomMark.push([all_Pair[a].join(' та '), themes_For_Pairs[a], random__Marks()]);
+    studentsRandomMark.push([all_Pair[a].join(' та '), themes[a], random__Marks()]);
   }
   return studentsRandomMark;
 }
