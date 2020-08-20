@@ -1,4 +1,4 @@
-let firstNumber;
+/* let firstNumber;
 let secondNumber;
 
 firstNumber = Number(prompt ("Будь ласка напишіть перше ціле число"));
@@ -30,4 +30,11 @@ if(missNumber) {
     for(let z = firstNumber; z <= secondNumber; z++)
     sum += z;
   }
-console.log(sum);
+console.log(sum); */
+
+/* let name = "";
+do {
+  name = prompt("Напиши своє Ім'я :)")
+} while (!name || !Number || name.length < 3);
+console.log('name: ', name); */
+

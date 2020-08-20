@@ -1,4 +1,4 @@
-const car = 15.678;
+/* const car = 15.678;
 console.log(car);
 
 const bus = 123.965;
@@ -67,4 +67,4 @@ Train: ${train}
 Прибуток: ${profit}
 Собівартість: ${cost}
 Чистий прибуток: ${happyEnd}`;
-console.log(results);
+console.log(results); */
