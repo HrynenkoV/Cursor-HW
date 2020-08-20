@@ -1,0 +1,54 @@
+const numbers = [6, 2, 55, 11, 78, 2, 55, 77, 5.47, 57, 87, 23, 2, 56, 3, 2];
+
+
+
+//1 Масив випадкових чисел
+const getRandomArray = (lenght, min, max) => 
+new Array(lenght).fill(0).map(() => parseInt((Math.random()*(min-max)+max).toFixed(0)))
+
+const random = getRandomArray(15,1,100);
+console.log(random)
+
+
+
+//2 середнє арифметичне
+
+const getAverage = (...numbers) => { 
+    let notIntegral = numbers.filter((el) => el % 1 === 0);
+    let result =  notIntegral.reduce((acum,cur) => acum + cur,0)/notIntegral.length;
+    return result.toFixed(1);
+}
+console.log(getAverage(...numbers))
+
+
+
+//3 Фільтрує парні числа
+const filterEvenNumbers = (...numbers) => numbers.filter((el) => el % 2 !== 0);
+console.log(filterEvenNumbers(...numbers))
+
+
+
+//4 Фільтрує цифри які білльші за 0
+const filterMinusNumber = [-1,4,6,-4,-9,4]
+const countPositiveNumbers = (filterMinusNumber) => filterMinusNumber.filter((el) => el > 0).length;
+console.log(countPositiveNumbers(filterMinusNumber));
+
+
+
+//5 Цифри які діляться націло на 5
+const getDividedByFive = (...numbers) => numbers.filter((el) => el % 5 === 0);
+console.log(getDividedByFive(...numbers));
+
+
+
+//6 Ділимо слово по 3 букви
+const generateCombinations = (word, value) => {
+    const currentWord = word.toLowerCase().replace(/\s+/g, '');
+    const result = [];
+     for(let i = 0; i < currentWord.length; i+=value) {
+     const tempArr = [currentWord.slice(i, i + value)];
+     result.push(tempArr)
+     }
+     return result
+    }   
+     console.log(generateCombinations('Ca lcuLA teD',3));
